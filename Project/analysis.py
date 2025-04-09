@@ -38,10 +38,11 @@ df = pd.DataFrame(data.data, columns=data.feature_names)
 for i, feature in enumerate(df.columns):
     plt.subplot(2, 2, i+1) # Organice the graphics in 2 files and 2 columns. 
     sns.histplot(df[feature], bins=20, kde=True, color='skyblue') # Using "feature" to do the graphics with all the variables in the data set.
+    # Title and labels
     plt.title(f'Histogram of {feature}')
     plt.xlabel(feature)
     plt.ylabel('frequency')
-
+# Saving in PNG
 plt.savefig('histogramas_variables.png', format='png')
 plt.close()
 

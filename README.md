@@ -1,6 +1,8 @@
 # pands-project
 Personal project for Programming and Scripting
 
+On this README you could find all the sources used to prepare my final project.
+
 Iris Data Set :
 
 https://archive.ics.uci.edu/dataset/53/iris
@@ -13,3 +15,6 @@ Using some previous information received on classes and support from below websi
 https://seaborn.pydata.org/
 
 https://www.w3schools.com/python/numpy/numpy_random_seaborn.asp
+
+Run this code using " python .\analysis.py " and it will create a txt file where you can find a summary of the data set.
+After that It will print and save one histogram for each feature of the data set and just print (not save) a Scatter plot.
