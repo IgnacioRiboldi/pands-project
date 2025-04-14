@@ -18,3 +18,10 @@ https://www.w3schools.com/python/numpy/numpy_random_seaborn.asp
 
 Run this code using " python .\analysis.py " and it will create a txt file where you can find a summary of the data set.
 After that It will print and save one histogram for each feature of the data set and just print (not save) a Scatter plot.
+https://matplotlib.org/
+
+Pandas:
+https://pandas.pydata.org/
+
+Examples:
+https://www.datacamp.com/
