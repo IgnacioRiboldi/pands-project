@@ -25,3 +25,7 @@ https://pandas.pydata.org/
 
 Examples:
 https://www.datacamp.com/
+
+Extra help:
+https://www.askpython.com/#google_vignette
+https://www.w3schools.com/
