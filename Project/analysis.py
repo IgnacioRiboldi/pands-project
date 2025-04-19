@@ -7,10 +7,17 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn import datasets
 
+
 def generate_summary():
-    
+
     #Load Iris Data Set
     iris = sns.load_dataset('iris')
+
+    # Display feature names
+    print("Feature names:", iris.columns[:-1].tolist())
+
+    # Display target names (target classes)
+    print("Target classes:", iris['species'].unique().tolist())
     
     # create a resume of dataset
     summary = iris.describe()
