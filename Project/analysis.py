@@ -62,25 +62,21 @@ plt.show()
 
 from sklearn.datasets import load_iris
 
+# Load iris data set
 iris_data = load_iris()
 iris = pd.DataFrame(iris_data.data, columns=iris_data.feature_names)
 iris['species'] = pd.Categorical.from_codes(iris_data.target, iris_data.target_names)
-
-# Rename columns to simpler names (optional)
 iris.columns = [col.replace(' (cm)', '').replace(' ', '_') for col in iris.columns]
+features = iris.columns[:-1]  # excluding column 'species'
 
-# List of features to plot
-features = iris.columns[:-1]  # exclude 'species'
-
-# Create line plots for each feature
+# Graphics
 for feature in features:
-    plt.figure(figsize=(10, 6))
-    sns.lineplot(data=iris, x=iris.index, y=feature, hue='species', palette='Set2')
-
-    # Customize the plot
-    plt.title(f'{feature.replace("_", " ").title()} in the Iris Dataset')
-    plt.xlabel('Index')
-    plt.ylabel(f'{feature.replace("_", " ").title()} (cm)')
+    sns.set(style="whitegrid")
+    g = sns.lineplot(data=iris, x=iris.index, y=feature, hue='species', palette='Set2')
+    g.set(
+        title=f'{feature.replace("_", " ").title()} in the Iris Dataset',
+        xlabel='Index',
+        ylabel=f'{feature.replace("_", " ").title()} (cm)'
+    )
     plt.legend(title='Species')
-    plt.grid(True)
     plt.show()
