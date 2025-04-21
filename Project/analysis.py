@@ -1,5 +1,5 @@
 # Analysis
-# First analysis of Iris data set
+# Analysis of iris data set
 # By Ignacio Riboldi
 
 import pandas as pd

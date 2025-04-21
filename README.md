@@ -3,14 +3,19 @@ Personal project for Programming and Scripting
 
 On this README you could find all the sources used to prepare my final project.
 
+During this final project I was able to show some knoledge of the coding we were practicing during this subject.
+At the beggining I could say it was not very difficult since we were using an data frame that we worked with in another subject (Principle of data analytics).
+Mixing some previous code and with help of different source I manage to prepare this small project.
+The first two task were ok, since we were told what to do, but when we got the freedom to perform some extras analysis I went blank, we saw many graphics that I was´t completely sure of wich one would be better for this data.
+I decided to add the presentation of the Feature Names and Classes, I felt was something important to introduce this steps before showing all the analysis since It would give a little overview of what is comming after.
+Also, I decided to add a line graphic, comparing each feature of each of the classes.
+I searched for porjects from different students, and I don´t feel their analysis is much extensive or relevant, but I will still thinking about any possible idea I can introduce to the project before the dead line.
+
 Iris Data Set :
 
 https://archive.ics.uci.edu/dataset/53/iris
 
 This data set contains data and characteristics from 3 different types of Iris Species, also contains data of the length and width of their sepal and Petal.
-
-analysis.py
-Using some previous information received on classes and support from below websites, I manage to create the first excerise of this project.
 
 https://seaborn.pydata.org/
 
