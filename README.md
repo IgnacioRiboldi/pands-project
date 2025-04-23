@@ -21,7 +21,7 @@ Codes where created in different programs and then merged in one as practiced on
 ## Result
 
 Run this code using " python .\analysis.py " and it will create a txt file where you can find a summary of the data set.
-After that It will print and save one histogram for each feature of the data set and just print (not save) a 
+After that It will print and save one histogram for each feature of the data set and just print (not save) a line graphic that compares each feature of each species.
 
 
 ## Sources
@@ -34,13 +34,18 @@ This data set contains data and characteristics from 3 different types of Iris S
 
 https://seaborn.pydata.org/ Seaborn is a very complete librery at the time of data analytics, thanks to this I was able to create most of the graphics on this project.
 
-Scatter plot.
+Scatter plot:
+
 https://matplotlib.org/  - https://seaborn.pydata.org/examples/scatterplot_matrix.html - For the scatter plot I used a mix of seaborn (create the histogram) and matplotlib (edit title and labels and show and save.)
 
 Pandas:
+
 https://pandas.pydata.org/ - Used to import iris data set.
 
 Extra help:
+
 https://www.askpython.com/#google_vignette
+
 https://www.w3schools.com/
+
 https://chatgpt.com/
